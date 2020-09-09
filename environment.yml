@@ -1,4 +1,6 @@
 name: webscrape
+channels:
+  - conda-forge
 dependencies:
         - numpy
         - python
@@ -8,3 +10,4 @@ dependencies:
         - pandas
         - matplotlib
         - wordcloud
+        - jupyter
